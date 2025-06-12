@@ -7,14 +7,14 @@ github_username: CyberDoc88
 minimal_mistakes_skin: default
 search: true
 
-# Manual Navigation Bar
+# Manual Navigation (correct key is `navigation`)
 navigation:
   - title: "Home"
     url: /
   - title: "About"
     url: /about/
   - title: "Research"
-    url: /research/   # change to /publications/ if not renamed
+    url: /research/
   - title: "Insights"
     url: /insights/
 
@@ -24,13 +24,13 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: America/Chicago  # optional, adjust as needed
+timezone: America/Chicago
 
-# Include directories
+# Includes
 include:
   - _pages
 
-# Plugins (required for full functionality)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -39,10 +39,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Author Profile
+# Author Info
 author:
   name   : "C Nott"
-  avatar : "/assets/images/bio-photo.jpg"  # Optional: update or remove
+  avatar : "/assets/images/bio-photo.jpg"
   bio    : "Cybersecurity leader and AI strategist | CTI, digital forensics, counterintelligence"
   links:
     - label: "LinkedIn"
@@ -55,7 +55,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CyberDoc88"
 
-# Footer (optional, simplified)
+# Footer
 footer:
   links:
     - label: "LinkedIn"
@@ -65,7 +65,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CyberDoc88"
 
-# Page Defaults
+# Layout Defaults
 defaults:
   - scope:
       path: ""
@@ -85,8 +85,8 @@ defaults:
       layout: single
       author_profile: true
 
-# Disable Categories and Tags Archive Pages
-# (They cause empty links if no posts are tagged)
+# Disable default category and tag archives
+# These are auto-generated if left on
 # category_archive:
 #   type: liquid
 #   path: /categories/
