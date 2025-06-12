@@ -31,5 +31,5 @@ Each paper is grounded in hands-on leadership, strategic foresight, and technica
 *— Available soon*
 
 ---
---!>
+-->
 To be notified when new publications are released, connect on [LinkedIn](https://linkedin.com/in/cnott) or [subscribe here](mailto:cn.research@outlook.com).
