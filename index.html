@@ -356,9 +356,16 @@
 
         .work-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
             margin-top: 3rem;
+        }
+
+        @media (max-width: 1200px) {
+            .work-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
         }
 
         .work-card {
@@ -621,7 +628,7 @@
         <div class="hero-container">
             <div class="hero-content">
                 <!-- <div class="hero-badge">🎓 Doctoral Candidate in Cybersecurity</div> -->
-                <h1 class="hero-title" style ="font-size: 2.2rem;">Cybersecurity Leader</br>AI & Cyber Strategist</br>Strategy-to-Execution Architect</br>Educator </h1>
+                <h1 class="hero-title" style="font-size: 2.2rem;">Cybersecurity Leader<br>AI & Cyber Strategist<br>Strategy-to-Execution Architect<br>Educator</h1>
                 <p class="hero-subtitle">Advancing the intersection of artificial intelligence and cybersecurity through research, strategy, and workforce development.</p>
                 <p class="hero-description">
                     Bridging academic rigor with real-world application, I specialize in AI-driven threat detection, strategic cybersecurity consulting, and developing the next generation of cybersecurity professionals through innovative workforce readiness programs.
@@ -768,14 +775,13 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="section-container">
-            <h2 class="section-title">Let's Collaborate</h2>
+            <h2 class="section-title">Let's Connect</h2>
             <p class="section-subtitle">
                 Available for strategic consulting, research collaboration, speaking engagements, and academic partnerships.
             </p>
             <div class="contact-buttons">
                 <a href="mailto:your.email@university.edu" class="btn-white">Email Me</a>
-                <a href="/cv" class="btn-white">Download CV</a>
-                <a href="#calendar" class="btn-white">Schedule Meeting</a>
+                <a href="https://linkedin.com/in/yourprofile" class="btn-white">LinkedIn</a>
             </div>
         </div>
     </section>
@@ -784,7 +790,7 @@
     <footer class="footer">
         <div class="footer-content">
             <div>
-                <p>&copy; 2025 Dr. [Your Name]. All rights reserved.</p>
+                <p>&copy; 2025 Christopher Nott. All rights reserved.</p>
             </div>
             <div class="social-links">
                 <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
