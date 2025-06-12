@@ -1,31 +1,69 @@
-/* === Typography and Layout === */
+/* === Base Layout and Container === */
 body {
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   line-height: 1.65;
   color: #1f1f1f;
   background-color: #ffffff;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 100%;
+  padding: 4rem 2rem;
+  margin: 0;
 }
 
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Remove unnecessary padding and box styling from default layout */
+.page__content {
+  background: #ffffff;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* Hide sidebar globally */
+.page__sidebar {
+  display: none;
+}
+
+/* === Typography === */
 h1, h2, h3, h4, h5 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: #111111;
-  margin-top: 2.5rem;
+  line-height: 1.2;
+  margin-top: 3rem;
   margin-bottom: 1rem;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 }
 h2 {
   font-size: 1.75rem;
 }
 h3 {
   font-size: 1.35rem;
+}
+h4 {
+  font-size: 1.1rem;
+}
+
+p, ul, ol {
+  font-size: 1.1rem;
+  margin-bottom: 1.75rem;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+/* Center the homepage H1 for stronger impact */
+.page__content > h1:first-of-type {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 /* === Links === */
@@ -41,16 +79,11 @@ a:hover {
   border-bottom-color: #000000;
 }
 
-/* === Horizontal Rules === */
+/* === Dividers and Horizontal Rules === */
 hr {
   margin: 3rem 0;
   border: none;
   border-top: 1px solid #cccccc;
-}
-
-/* === Lists === */
-ul, ol {
-  padding-left: 1.5rem;
 }
 
 /* === Code Styling === */
@@ -59,13 +92,7 @@ code, pre {
   padding: 0.2em 0.4em;
   font-size: 90%;
   border-radius: 4px;
-}
-
-/* === Images === */
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
+  font-family: Consolas, monospace;
 }
 
 /* === Tables === */
@@ -83,13 +110,20 @@ th {
   background-color: #f8f8f8;
 }
 
+/* === Images === */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
 /* === Responsive Tweaks === */
 @media screen and (max-width: 768px) {
   body {
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
   }
   h1 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   h2 {
     font-size: 1.5rem;
