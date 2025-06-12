@@ -1,9 +1,10 @@
 ---
 layout: single
 title: "Research"
-permalink: /Research/
+permalink: /research/
 author_profile: true
 ---
+
 
 This section highlights original research, strategic frameworks, and operational whitepapers at the intersection of cybersecurity and artificial intelligence. These works are currently being finalized for release.
 
