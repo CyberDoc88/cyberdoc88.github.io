@@ -17,8 +17,8 @@ title: Cybersecurity & AI Strategy
 email: cn.research@outlook.com
 description: >-
   Strategic insights and implementation frameworks for AI-enhanced cybersecurity operations, from concept to deployment.
-twitter_username: username
-github_username: username
+#twitter_username: username
+github_username: CyberDoc88
 minimal_mistakes_skin: default
 search: true
 
@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "C Nott"
   avatar : "/assets/images/bio-photo.jpg"  # You can change this later or remove it
-  bio    : "Cybersecurity leader and AI strategist | CTI, digital forensics, counterintelligence"
+  #bio    : "Cybersecurity leader and AI strategist | CTI, digital forensics, counterintelligence"
   links:
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
