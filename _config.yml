@@ -7,7 +7,10 @@ github_username: CyberDoc88
 minimal_mistakes_skin: air
 search: true
 
-# Build Settings
+# Manual Navigation
+# Controlled via _data/navigation.yml
+
+# Theme and Build Settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
@@ -15,9 +18,10 @@ paginate: 5
 paginate_path: /page:num/
 timezone: America/Chicago
 
-# Includes
+# Include custom folders
 include:
   - _pages
+  - _data
 
 # Plugins
 plugins:
@@ -44,7 +48,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CyberDoc88"
 
-# Footer
+# Footer Links
 footer:
   links:
     - label: "LinkedIn"
@@ -54,29 +58,34 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CyberDoc88"
 
-# Layout Defaults
+# Layout Defaults (includes custom head injection)
 defaults:
   - scope:
       path: ""
+    values:
+      layout: single
+      author_profile: false
+      head: head-custom.html
+
+  - scope:
+      path: "_posts"
       type: posts
     values:
-      head: head-custom.html
       layout: single
       author_profile: false
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
 
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
-# Disable default category and tag archives
-# These are auto-generated if left on
+# Disable category and tag pages (optional cleanup)
 # category_archive:
 #   type: liquid
 #   path: /categories/
