@@ -5,5 +5,7 @@ main:
     url: /about/
   - title: "Research"
     url: /research/
+  - title: "Articles"
+    url: /articles/
   - title: "Insights"
     url: /insights/
