@@ -8,7 +8,7 @@ minimal_mistakes_skin: default
 search: true
 
 # Manual Navigation Bar
-nav:
+navigation:
   - title: "Home"
     url: /
   - title: "About"
