@@ -7,17 +7,6 @@ github_username: CyberDoc88
 minimal_mistakes_skin: default
 search: true
 
-# Manual Navigation (correct key is `navigation`)
-navigation:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Research"
-    url: /research/
-  - title: "Insights"
-    url: /insights/
-
 # Build Settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
