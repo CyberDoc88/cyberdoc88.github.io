@@ -76,6 +76,19 @@ author:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:cn.research@outlook.com"
 
+# Main navigation links
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /Research/  # Placeholder until you're ready
+  - title: "Articles"
+    url: /Articles/  # Placeholder until you're ready
+  - title: "Insights"
+    url: /insights/  # Placeholder until you're ready
+
 footer:
   links:
 #    - label: "Twitter"
@@ -108,9 +121,9 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
