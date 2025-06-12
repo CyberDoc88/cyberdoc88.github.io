@@ -13,6 +13,7 @@ Each paper is grounded in hands-on leadership, strategic foresight, and technica
 
 ## 🧠 Strategic Whitepapers (Coming Soon)
 
+<!--
 ### 📘 Generative AI in the Cyber Kill Chain  
 *A strategic framework for understanding and mitigating GenAI-driven threats to enterprise and critical infrastructure.*  
 *— Available soon*
@@ -30,5 +31,5 @@ Each paper is grounded in hands-on leadership, strategic foresight, and technica
 *— Available soon*
 
 ---
-
+--!>
 To be notified when new publications are released, connect on [LinkedIn](https://linkedin.com/in/cnott) or [subscribe here](mailto:cn.research@outlook.com).
