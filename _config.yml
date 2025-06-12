@@ -1,52 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site Identity
 title: Cybersecurity & AI Strategy
 email: cn.research@outlook.com
 description: >-
   Strategic insights and implementation frameworks for AI-enhanced cybersecurity operations, from concept to deployment.
-#twitter_username: username
 github_username: CyberDoc88
 minimal_mistakes_skin: default
 search: true
 
-# Build settings
+# Manual Navigation Bar
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/   # change to /publications/ if not renamed
+  - title: "Insights"
+    url: /insights/
+
+# Build Settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago  # optional, adjust as needed
 
+# Include directories
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+# Plugins (required for full functionality)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -55,54 +39,34 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Author Profile
 author:
   name   : "C Nott"
-  avatar : "/assets/images/bio-photo.jpg"  # You can change this later or remove it
-  #bio    : "Cybersecurity leader and AI strategist | CTI, digital forensics, counterintelligence"
+  avatar : "/assets/images/bio-photo.jpg"  # Optional: update or remove
+  bio    : "Cybersecurity leader and AI strategist | CTI, digital forensics, counterintelligence"
   links:
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://cyberdoc88.github.io/"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/cnott"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:cn.research@outlook.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/CyberDoc88"
 
-# Main navigation links
-nav:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Research"
-    url: /Research/  # Placeholder until you're ready
-  - title: "Articles"
-    url: /Articles/  # Placeholder until you're ready
-  - title: "Insights"
-    url: /insights/  # Placeholder until you're ready
-
+# Footer (optional, simplified)
 footer:
   links:
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/cnott"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/CyberDoc88"
 
+# Page Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -113,7 +77,7 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+
   - scope:
       path: "_pages"
       type: pages
@@ -121,9 +85,11 @@ defaults:
       layout: single
       author_profile: true
 
-#category_archive:
-#  type: liquid
-#  path: /categories/
-#tag_archive:
-#  type: liquid
-#  path: /tags/
+# Disable Categories and Tags Archive Pages
+# (They cause empty links if no posts are tagged)
+# category_archive:
+#   type: liquid
+#   path: /categories/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
