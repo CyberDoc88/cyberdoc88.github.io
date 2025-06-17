@@ -1,27 +1,27 @@
-# Minimal Mistakes remote theme starter
+CyberDoc88's GitHub Pages Site
+Overview
+Welcome to the GitHub Pages site for CyberDoc88, hosted at cyberdoc88.github.io. This site serves as a personal portfolio and blog, showcasing projects, technical write-ups, and insights related to cybersecurity, programming, and technology.
+Features
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Portfolio: Highlights projects with descriptions, technologies used, and links to live demos or related resources.
+Blog: Features articles and tutorials on topics like ethical hacking, software development, and tech trends.
+Responsive Design: Built with HTML, CSS, and JavaScript for a seamless experience across devices.
+Contact Section: Offers ways to connect via email or social media.
 
-Contains basic configuration to get you a site with:
+Technologies
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+Frontend: HTML5, CSS3, JavaScript
+Framework: [Specify if any, e.g., Bootstrap, Jekyll, etc., or remove if none]
+Hosting: GitHub Pages
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+Usage
+Visit cyberdoc88.github.io to explore the site. The repository is configured for GitHub Pages hosting and is not intended for cloning or local setup.
+License
+This project is licensed under the MIT License.
+Contact
+For questions or feedback:
 
----
+Email: [Your email, e.g., cyberdoc88@example.com]
+GitHub: CyberDoc88
+Site: cyberdoc88.github.io
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
